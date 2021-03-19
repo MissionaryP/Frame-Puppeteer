@@ -1,0 +1,47 @@
+module.exports = {
+labelAddNewGrowerProfile:"//span[text()=\"Add New Grower Profile\"]",
+labelInformations:"//span[text()=\"Informations\"]",
+labelLicensingAgreement:"//span[text()=\"Licensing Agreement\"]",
+
+selectDocType : "//mat-option/span[@class = \"mat-option-text\"]",
+labelGeneralData:"//mat-card-title[text()=\"General Data\"]",
+labelGrowerPrimaryInformation:"//h3[text()=\"GROWER PRIMARY INFORMATION\"]",
+inputCPF:"//span[text()=\"CPF\"]",
+inputDocument:"#documentNumber",
+inputGrower:"#name",
+inputGrowerFantasyName:"#alias",
+labelGrowerContactAndInformation:"//h3[text()=\"GROWER CONTACT AND NOTIFICATIONS\"]",
+inputContactEmail:"#email",
+checkboxGrowerNotifications:"#receiveEmail-input",
+inputPrimaryPhone:"#phoneNumber",
+checkboxConfirmation:"#confirmInformation-input",
+labelClassification:"//mat-card-title[text()=\"Classification\"]",
+labelTypes:"//span[text()=\"TYPES\"]",
+checkboxCollaborator:"#collaborator-input",
+checkboxCooperative:"#cooperative-input",
+checkboxElected:"#groundbreaker-input",
+checkboxCertifiedPartner:"#precertificate-input",
+labelBillingInformation:"//mat-card-title[text()=\"Billing information\"]",
+//selector duplicado location
+labelLocation:"//h3[text()=\"LOCATION\"]",
+inputZipCode:"#mat-input-6",
+inputAddress:"#mat-input-7",
+inputNumber:"#mat-input-8",
+inputComplement:"#mat-input-9",
+inputNeighborhood:"#mat-input-10",
+labelContactInformation:"//span[text()=\"CONTACT INFORMATION\"]",
+inputPhoneNumber:"#mat-input-11",
+checkboxBillingAddress:"#mat-checkbox-8-input",
+labelCommercialInformation:"//mat-card-title[text()=\"Commercial information\"]",
+inputZipCode:"mat-input-42",
+inputAddress:"#mat-input-43",
+inputNumber:"#mat-input-44",
+inputComplement:"#mat-input-45",
+inputNeighborhood:"mat-input-46",
+//selector duplicado contact information
+//selector duplicado phone number
+checkboxCertifyInformations:"#mat-checkbox-7-input",
+ButtonSave:"//span[text() =\"SAVE AND SET LICENSING AGREEMENT\"]",
+
+
+}
